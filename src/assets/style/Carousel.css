@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+.title {
+  color: white;
+  margin: 40px 0;
+  margin-bottom: 12px;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+
+.imagesfromtable {
+  display: flex;
+  overflow: hidden;
+  overflow-x: scroll;
+  width: calc(100% / 1 - 14px / 1);
+}
+
+.imagesfromtable::-webkit-scrollbar {
+  /* supprimer le scrollbar */
+  display: none;
+}
+
+.imagesfromtable img {
+  object-fit: cover;
+  height: 241px;
+  border-radius: 10px;
+}
+
+.imagesfromtable :not(:last-child) {
+  margin-right: 17px;
+}

@@ -10,11 +10,11 @@
 }
 
 .container1 {
-  background-color: violet;
+  background-color: black;
   width: 95%;
 }
 .header img {
-  margin-left: 20px;
-  width: 250px;
+  width: 200px;
+  border-radius: 15px;
   object-fit: cover;
 }

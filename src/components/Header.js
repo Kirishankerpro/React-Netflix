@@ -1,5 +1,5 @@
-import "../style/Header.css";
-import Image from "../img/netflix.webp";
+import "../assets/style/Header.css";
+import Image from "../assets/img/netflix.webp";
 
 function Header() {
   return (
