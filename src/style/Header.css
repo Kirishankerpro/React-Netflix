@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container1 {
+  background-color: violet;
+  width: 95%;
+}
+.header img {
+  margin-left: 20px;
+  width: 250px;
+  object-fit: cover;
+}
