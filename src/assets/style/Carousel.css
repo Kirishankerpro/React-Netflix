@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 .title {
+  font-size: 1.6em;
   color: white;
   margin: 35px 0;
   margin-bottom: 12px;
@@ -13,7 +14,6 @@
   display: flex;
   overflow: hidden;
   overflow-x: scroll;
-  width: calc(100% / 1 - 14px / 1);
 }
 
 .imagesfromtable::-webkit-scrollbar {
@@ -26,11 +26,11 @@
   height: 170px;
   border-radius: 10px;
   cursor: pointer;
-  transition: height 1s ease-in-out 0.3s;
+  transition: 0.6s ease-in-out 0.9s;
 }
 
 .imagesfromtable img:hover {
-  height: 240px;
+  height: 220px;
 }
 
 .imagesfromtable :not(:last-child) {
