@@ -30,7 +30,7 @@
 }
 
 .imagesfromtable img:hover {
-  height: 220px;
+  height: 230px;
 }
 
 .imagesfromtable :not(:last-child) {
